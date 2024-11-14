@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+          
+        body {
+            margin: 0;
+        }
+          
+          
+        .header {
+              color: white;
+              
+              background-color: navy;
+              padding: 3px;
+              display: flex;
+              width: 100%;
+              position: sticky;
+              top: 0;
+              z-index: 1000;
+        }
+        .header a{
+            color: white;
+        }
+        .header a:hover{
+            color: red;
+        }
+        .nav{
+              display: flex;
+              
+        }
+        .nav input[type=text] {
+              float: right;
+              padding: 3px;
+              margin-top:25px ;
+              margin-right: 16px;
+              font-size: 15px;
+              height: 30px;
+              width: 400px;
+        }
+        .nav2{
+              display: flex;
+              margin-left: 165px;
+              margin-top: 20px;
+              
+        }
+        .ab{
+              margin-left: 500px;
+              margin-top: 6px;
+        }
+        .ab a{
+              text-decoration: none;
+              font-size: 20px;
+              color: black;
+              margin: 15px;
+              
+        }
+        .ab a:hover {
+              color: brown; 
+              text-decoration: underline;
+        }
+        .ab select{
+              width: 100px;
+              height: 30px;
+              border: none;
+              font-size: 14px;
+        }
+        .a4{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 140px;
+            margin-right: 100px;
+        }
+        .a5{
+           background-color: white;
+            height: 400px;
+            width: 310px;
+            border-radius: 10px;
+        
+            
+            
+        }
+        .a5:hover{
+            height: 410px;
+            width: 320px;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .a6{
+            width: 100%;
+            
+            gap: 5px;
+            justify-content: space-between;
+            background-color: rgb(235, 235, 248);
+            padding: 10px;
+           
+           
+
+        }
+        .a7{
+            color: black;
+            text-align: center;
+            padding-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: sticky;">
+        <div class="header">
+                 <h2>Offer Zone Top Deals & Discounts</h2> &nbsp;&nbsp;&nbsp;
+                 <i class="bi bi-cart4" style="margin-top:16px; "></i>
+                <div style="display: flex; margin-left:560px; margin-top:16px;">
+                    <i class="bi bi-geo-alt-fill"></i>&nbsp;&nbsp;
+                    <span>Select Location</span> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="bi bi-truck"></i>&nbsp;&nbsp;
+                    <span>Track Order</span>&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="bi bi-telephone"></i>&nbsp;&nbsp;
+                    <span>123 456 7890</span>&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="login.html"><i class="bi bi-box-arrow-in-right"></i></a>&nbsp;&nbsp;
+                    <a href="login.html"> <span>Log In</span> </a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="register.html"><i class="bi bi-box-arrow-in-right"></i> </a>&nbsp;&nbsp;
+                    <a href="register.html"><span>Register</span></a>
+    
+                </div>
+    
+    
+        </div>
+    
+        <div class="nav">
+            <img src="logo.png" height="80px" width="300px" style="margin-left: 80px;margin-top:0;">
+            <input type="text" placeholder="Search..">
+            <button style="float: right;padding: 3px;margin-top:25px;height:30px;width:80px;background-color:brown;color:white;font-weight:60px;font-size:15px;border:none;">Search</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a href="product.html"> <img src="cart.png" height="30px" width="45px" style="margin-top:25px;"></a>
+    
+    
+        </div>
+        <div class="nav2">
+                   <div class="nav22"> 
+                    <select name="" id="" style="height: 30px;width:180px;font-size: 13px;">
+                        <option value="All categories">All Category</option>
+                        <option value="">Value of the day</option>
+                        <option value="">Top 100 offers</option>
+                        <option value="">Laptop and Computer</option>
+                        <option value="">Computer Hardware</option>
+                        <option value="">Camera & photo</option>
+                        <option value="">Smartphone & Tablets</option>
+                        <option value="">TV & Audio</option>
+                        <option value="">Home & Electronic</option>
+                        <option value="">Headphones & speaker</option>
+                        <option value="">Watches & Eyewear</option>
+                        <option value="">Gamepad & Console</option>
+                    </select>
+                  </div>
+           
+    
+            <div class="ab" >
+                <a href="Home.html">Home</a>
+                <select name="" id="">
+                    <option value="" selected>Electronics</option>
+                </select>
+                
+                <a  href="about.html">About us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            
+    
+        </div>
+    </div>
+    <div class="a6">
+        <div class="a4">
+            <div class="a5">
+               <img src="50.png" style="width: 50px;height:50px;">
+               <div class="a7">
+                <h2>Samsung Galaxy Z Folds 2</h2>
+                <p>12GB | 256GB</p>
+                <hr style="color: white; width:150px">
+                <p style="font-size: 18px;"><strike>149999</strike> <b style="color: red;">rs.53,999*</b></p>
+                <p>*Inclusive of all offers</p>
+               <a href="Info.html"> <img src="s11.jfif" style="height: 180px;width:180px;"></a>
+
+
+               </div>
+
+            </div>
+            <div class="a5">
+                <img src="50.png" style="width: 50px;height:50px;">
+                <div class="a7">
+                    <h2>Galaxy S24 Ultra</h2>
+                    <p>12GB | 128GB</p>
+                    <hr style="color: white; width:150px">
+                    <p style="font-size: 18px;"><strike>130000</strike><b style="color: red;">rs.56,799*</b></p>
+                    <p>*Inclusive of all offers</p>
+                    <a href=""><img src="s1.png" style="height: 180px;width:180px;"></a>
+    
+    
+                </div>
+ 
+            </div>
+            <div class="a5">
+                <img src="50.png" style="width: 50px;height:50px;">
+                <div class="a7">
+                    <h2>Galaxy Z Folds</h2>
+                    <h2>Black series</h2>
+                    <hr style="color: white; width:150px">
+                    <p style="font-size: 18px;">140000<b style="color: red;">rs.53,799*</b></p>
+                    <p>*Inclusive of all offers</p>
+                    <a href=""><img src="s2.png" style="height: 200px;width:180px;"></a>
+    
+    
+                </div>
+ 
+            </div>
+            
+        </div>
+        <div class="a4" style="margin-top: 20px;">
+            <div class="a5">
+               <img src="50.png" style="width: 50px;height:50px;">
+               <div class="a7">
+                <h2>Samsung Galaxy Z Folds 2</h2>
+                <p>12GB | 256GB</p>
+                <hr style="color: white; width:150px">
+                <p style="font-size: 18px;"><strike>149999</strike> <b style="color: red;">rs.53,999*</b></p>
+                <p>*Inclusive of all offers</p>
+               <a href=""> <img src="s3.png" style="height: 160px;width:150px;"></a>
+
+
+               </div>
+
+            </div>
+            <div class="a5" >
+                <img src="50.png" style="width: 50px;height:50px;">
+                <div class="a7">
+                    <h2>Galaxy S24 Ultra</h2>
+                    <p>12GB | 128GB</p>
+                    <hr style="color: white; width:150px">
+                    <p style="font-size: 18px;"><strike>130000</strike><b style="color: red;">rs.56,799*</b></p>
+                    <p>*Inclusive of all offers</p>
+                    <a href=""><img src="s4.png" style="height: 160px;width:150px;"></a>
+    
+    
+                </div>
+ 
+            </div>
+            <div class="a5">
+                <img src="50.png" style="width: 50px;height:50px;">
+                <div class="a7">
+                    <h2>Galaxy Z Folds</h2>
+                    <h2>Black series</h2>
+                    <hr style="color: white; width:150px">
+                    <p style="font-size: 18px;">140000<b style="color: red;">rs.53,799*</b></p>
+                    <p>*Inclusive of all offers</p>
+                   <a href=""> <img src="s5.png" style="height: 170px;width:200px;"></a>
+    
+    
+                </div>
+ 
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

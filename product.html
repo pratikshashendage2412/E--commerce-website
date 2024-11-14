@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Product</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+          
+        body {
+            margin: 0;
+        }
+          
+          
+        .header {
+              color: white;
+              
+              background-color: navy;
+              padding: 3px;
+              display: flex;
+              width: 100%;
+              position: sticky;
+              top: 0;
+              z-index: 1000;
+        }
+        .header a{
+            color: white;
+        }
+        .header a:hover{
+            color: red;
+        }
+        .nav{
+              display: flex;
+              
+        }
+        .nav input[type=text] {
+              float: right;
+              padding: 3px;
+              margin-top:25px ;
+              margin-right: 16px;
+              font-size: 15px;
+              height: 30px;
+              width: 400px;
+        }
+        .nav2{
+              display: flex;
+              margin-left: 165px;
+              margin-top: 20px;
+              
+        }
+        .ab{
+              margin-left: 500px;
+              margin-top: 6px;
+        }
+        .ab a{
+              text-decoration: none;
+              font-size: 20px;
+              color: black;
+              margin: 15px;
+              
+        }
+        .ab a:hover {
+              color: brown; 
+              text-decoration: underline;
+        }
+        .ab select{
+              width: 100px;
+              height: 30px;
+              border: none;
+              font-size: 14px;
+        }
+        .x{
+            display: flex;
+            padding: 20px;
+            position: relative;
+            background-color: rgb(235, 235, 248);
+            
+        }
+        .x img{
+            margin-left: 800px;
+            height: 380px;
+            width: 330px;
+        }
+        .xy h3{
+            color:blue;
+            font-size: 15px;
+        }
+        .xy{
+            margin-left: 200px;
+            position: absolute;
+            padding-top: 25px;
+            
+        }
+        .xy p{
+            font-size: 30px;
+
+        }
+        #btn{
+            width:80px;
+            height: 40px;
+            background-color: red;
+            border: none;
+            font-size: 14px;
+            padding: 2px;
+            
+        }
+        #btn:hover{
+            color: white;
+            width:90px;
+            height: 50px;
+            transition: 0.2s;
+    
+        }
+        .p img{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color:rgb(242, 239, 239);
+            margin-left: 20px;
+            padding: 10px;
+        }
+        .p img:hover{
+            height: 160px;
+            width: 160px;
+            cursor: pointer;
+            border: 1px solid rgb(116, 82, 18); 
+
+
+        }
+        
+        .h{
+            width: 100%;
+        }
+        .k{
+            display: flex;
+        
+        }
+        .n{
+        
+            display: flex;
+            margin-top: 50px;
+            margin-left: 60px;
+        }
+        .m img{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            margin-right: 20px;
+        }
+        .m{
+            display: flex;
+            margin-left: 50px;
+            width: 350px;
+            height: 200px;
+            margin-bottom: 20px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+        .m p{
+            color: blue;
+            font-size: 16px;
+        }
+        .m h3{
+            font-size: 20px;
+            color: red;
+        }
+        .m:hover{
+            width: 360px;
+            height: 210px;
+            cursor: pointer;
+
+        }
+        .l button{
+            background-color:#FF5F1F;
+            border: none;
+            height: 40px;
+            width:150px;
+            margin-left: 23px;
+            border-radius: 5px;
+            color: white;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div style="position: sticky;">
+        <div class="header">
+                 <h2>Offer Zone Top Deals & Discounts</h2> &nbsp;&nbsp;&nbsp;
+                 <i class="bi bi-cart4" style="margin-top:16px; "></i>
+                <div style="display: flex; margin-left:560px; margin-top:16px;">
+                    <i class="bi bi-geo-alt-fill"></i>&nbsp;&nbsp;
+                    <span>Select Location</span> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="bi bi-truck"></i>&nbsp;&nbsp;
+                    <span>Track Order</span>&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="bi bi-telephone"></i>&nbsp;&nbsp;
+                    <span>123 456 7890</span>&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="login.html"><i class="bi bi-box-arrow-in-right"></i></a>&nbsp;&nbsp;
+                    <a href="login.html"> <span>Log In</span> </a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="register.html"><i class="bi bi-box-arrow-in-right"></i> </a>&nbsp;&nbsp;
+                    <a href="register.html"><span>Register</span></a>
+    
+                </div>
+    
+    
+        </div>
+    
+        <div class="nav">
+            <img src="logo.png" height="80px" width="300px" style="margin-left: 80px;margin-top:0;">
+            <input type="text" placeholder="Search..">
+            <button style="float: right;padding: 3px;margin-top:25px;height:30px;width:80px;background-color:brown;color:white;font-weight:60px;font-size:15px;border:none;">Search</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a href="product.html"> <img src="cart.png" height="30px" width="45px" style="margin-top:25px;"></a>
+    
+    
+        </div>
+        <div class="nav2">
+                   <div class="nav22"> 
+                    <select name="" id="" style="height: 30px;width:180px;font-size: 13px;">
+                        <option value="All categories">All Category</option>
+                        <option value="">Value of the day</option>
+                        <option value="">Top 100 offers</option>
+                        <option value="">Laptop and Computer</option>
+                        <option value="">Computer Hardware</option>
+                        <option value="">Camera & photo</option>
+                        <option value="">Smartphone & Tablets</option>
+                        <option value="">TV & Audio</option>
+                        <option value="">Home & Electronic</option>
+                        <option value="">Headphones & speaker</option>
+                        <option value="">Watches & Eyewear</option>
+                        <option value="">Gamepad & Console</option>
+                    </select>
+                  </div>
+           
+    
+            <div class="ab" >
+                <a href="Home.html">Home</a>
+                <select name="" id="">
+                    <option value="" selected>Electronics</option>
+                </select>
+                
+                <a  href="about.html">About us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            
+    
+        </div>
+    </div>
+    <div class="x">
+        <div class="xy">
+            <h3>SHOP TO GET WHAT YOU LOVE</h3>
+
+            <p>TIMEPIECES THAT MAKE A <br> STATEMENT UP TO <B style="color: red;font-size:40px;">40% OFF</B></p>
+            <a href="product.html"> <input id="btn" type="button" value="Start Buying"></a>
+        </div> 
+        <img src="h2.png" >
+    </div>
+
+    <div class="p" style="display: flex;width: 100%;margin-top:50px;margin-left:100px;">
+        
+            <img src="4.png" alt="">
+            <img src="watch.png" alt="">
+            <img src="camera.png" alt="">
+            <img src="h3.png" alt="">
+            <img src="mvivo.png" alt="">
+            <img src="mouse.png" alt="">
+            <img src="head.png" alt="">
+
+
+    
+    </div>
+    <h1 style="margin-top: 40px;;">Trending Products</h1>
+    <hr style="color:gold;">
+    <div class="h">
+        <div class="k">
+            <div>
+                <div class="n">
+                    <div class="m">
+                        <img src="watch.png" alt="">
+                        <div>
+                            <h1>Smartwatches</h1>
+                            <p>Gear Virtual Reality</p>
+                            <h3>$799.00</h3>
+                            <img src="cart.png" style="width:40px;height:30px;margin-left:170px;">
+                        </div>
+            
+                        
+                    </div>
+                    <div class="m">
+                        <img src="h4.png" alt="">
+                        <div>
+                           <h1>Headphones</h1>
+                          <p>Red solo 2 Wireless</p>
+                          <h3>$110.00</h3>
+                          <img src="cart.png" style="width:40px;height:30px;margin-left:170px;">
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="n">
+                    <div class="m">
+                        <img src="mvivo.png" style="height: 140px;width:130px;">
+                        <div>
+                            <h1>Smartwatches</h1>
+                            <p>Gear Virtual Reality</p>
+                            <h3>$799.00</h3>
+                            <img src="cart.png" style="width:40px;height:30px;margin-left:140px;">
+                        </div>
+            
+                        
+                    </div>
+                    <div class="m">
+                        <img src="4.png" style="height: 130px;width:120px;">
+                        <div>
+                            <h1>Gaming Laptop</h1>
+                            <p>Silver Ryzen i5</p>
+                            <h3>$1500.00</h3>
+                            <img src="cart.png" style="width:40px;height:30px;margin-left:140px;">
+                        </div>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <div class="o" style=" margin-left: 50px ; border:1px solid gray;width: 370px;height:472px;box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;  margin-top: 50px;">
+                <img src="50.png" style="width: 50px;height:50px;">
+                <div style="display: flex;" >
+                    <div>
+                   
+                        <img src="h5.png" style="height: 350px;width:180px; margin-left:15px;">
+                       
+                    </div>
+                    <div style="margin-top: 40px;margin-left: 20px;">
+                        <h3 style="color:blue">Boat Rockerz 650 with 60 Hours battery Backup Gaming Headset</h3>
+                        <p style="color: red;font-size:20px;">Rs.1699/* <strike style="color: black;font-size:12px;">Rs.3999</strike></p>
+                        <p>Upto <span style="color:red; font-size:16px;">60% off</span></p>
+                     </div>
+                    
+                </div>
+                <div class="l" style="margin-top:10px; display:flex;">
+                    <button>ADD TO CART</button>
+                    <button> BUY NOW</button>
+    
+                </div>
+                
+            </div>
+    
+    
+        </div>
+    
+    </div>
+    <div class="n">
+        <div class="m">
+            <img src="mouse.png" style="height: 130px;width:110px;">
+            <div>
+                    <h1>Mouse</h1>
+                    <p>black Wireless</p>
+                    <h3>$110.00</h3>
+                    <img src="cart.png" style="width:40px;height:30px;margin-left:170px;">
+            </div>
+    
+            
+        </div>
+        <div class="m">
+           
+            <img src="camera.png" alt="">
+            <div>
+                <h1>Camera</h1>
+                <p>vision capture</p>
+                <h3>$799.00</h3>
+                <img src="cart.png" style="width:40px;height:30px;margin-left:170px;">
+            </div>
+        </div>
+        <div class="m">
+            <img src="gaming.png" alt="">
+                <div>
+                    <h1>Gaming Laptop</h1>
+                    <p>Black Ryzen Backlight</p>
+                    <h3>$3000.00</h3>
+                    <img src="cart.png" style="width:40px;height:30px;margin-left:170px;">
+                </div>
+        </div>
+    </div>
+        
+    
+</body>
+</html>
